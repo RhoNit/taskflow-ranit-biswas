@@ -1,0 +1,5 @@
+.git
+.env
+*.md
+cmd/migrate-create
+cmd/hashpw

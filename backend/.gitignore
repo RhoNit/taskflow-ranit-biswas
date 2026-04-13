@@ -1,0 +1,7 @@
+# Environment (contains secrets)
+.env
+
+# Compiled binaries
+taskflow
+taskflow-migrate
+*.exe
