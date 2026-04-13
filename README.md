@@ -86,8 +86,8 @@ Assumes the reviewer has Docker installed.
 
 ```bash
 git clone https://github.com/RhoNit/taskflow-ranit-biswas.git
-cd taskflow/backend
-cp .env.example .env
+cd taskflow-ranit-biswas/backend
+cp .env.example .env # set your env vars too
 docker-compose up --build
 ```
 
@@ -105,7 +105,7 @@ Requires Go 1.25+ and a running PostgreSQL instance.
 
 ```bash
 git clone https://github.com/RhoNit/taskflow-ranit-biswas.git
-cd taskflow/backend
+cd taskflow-ranit-biswas/backend
 cp .env.example .env
 
 # Edit .env — set DB_HOST=localhost, create the database:
