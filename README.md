@@ -88,7 +88,7 @@ Assumes the reviewer has Docker installed.
 git clone https://github.com/RhoNit/taskflow-ranit-biswas.git
 cd taskflow-ranit-biswas/backend
 cp .env.example .env # set your env vars too
-docker-compose up --build
+docker compose up --build
 ```
 
 Docker Compose runs three services in order:
